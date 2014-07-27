@@ -36,14 +36,14 @@ For each record it is provided:
 ----------------------------------------
 -- 
 
-ObsnrSubjectType...........Obsrvation number within the original set ( test or train)
-...........................(not in samsungAvgMeanStdOnSubjectActivity.csv)
-SubjectType................test or  train  
-..........................(not in samsungAvgMeanStdOnSubjectActivity.csv)
-Subject....................number of the person  (1 to 30)
-ActivityNumber.............1 to 6 is the number to de activity name 
-...........................(not in samsungAvgMeanStdOnSubjectActivity.csv)
-ActivityName...............WALKING,WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING ,STANDING,LAYIN)
+1. ObsnrSubjectType...........Obsrvation number within the original set ( test or train)
+1. ...........................(not in samsungAvgMeanStdOnSubjectActivity.csv)
+1. SubjectType................test or  train  
+1. ..........................(not in samsungAvgMeanStdOnSubjectActivity.csv)
+1. Subject....................number of the person  (1 to 30)
+1. ActivityNumber.............1 to 6 is the number to de activity name 
+1. ...........................(not in samsungAvgMeanStdOnSubjectActivity.csv)
+1. ActivityName...............WALKING,WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING ,STANDING,LAYIN)
 
 -  In Record  measures/features:
 --------------------------------
@@ -81,89 +81,89 @@ angle(): Angle between to vectors.
 -  In Record 86 fields:
 ------------------------
 
-tBodyAccMeanX
-tBodyAccMeanY
-tBodyAccMeanZ
-tBodyAccStdX
-tBodyAccStdY
-tBodyAccStdZ
-tGravityAccMeanX
-tGravityAccMeanY
-tGravityAccMeanZ
-tGravityAccStdX
-tGravityAccStdY
-tGravityAccStdZ
-tBodyAccJerkMeanX
-tBodyAccJerkMeanY
-tBodyAccJerkMeanZ
-tBodyAccJerkStdX
-tBodyAccJerkStdY
-tBodyAccJerkStdZ
-tBodyGyroMeanX
-tBodyGyroMeanY
-tBodyGyroMeanZ
-tBodyGyroStdX
-tBodyGyroStdY
-tBodyGyroStdZ
-tBodyGyroJerkMeanX
-tBodyGyroJerkMeanY
-tBodyGyroJerkMeanZ
-tBodyGyroJerkStdX
-tBodyGyroJerkStdY
-tBodyGyroJerkStdZ
-tBodyAccMagMean
-tBodyAccMagStd
-tGravityAccMagMean
-tGravityAccMagStd
-tBodyAccJerkMagMean
-tBodyAccJerkMagStd
-tBodyGyroMagMean
-tBodyGyroMagStd
-tBodyGyroJerkMagMean
-tBodyGyroJerkMagStd
-fBodyAccMeanX
-fBodyAccMeanY
-fBodyAccMeanZ
-fBodyAccStdX
-fBodyAccStdY
-fBodyAccStdZ
-fBodyAccMeanFreqX
-fBodyAccMeanFreqY
-fBodyAccMeanFreqZ
-fBodyAccJerkMeanX
-fBodyAccJerkMeanY
-fBodyAccJerkMeanZ
-fBodyAccJerkStdX
-fBodyAccJerkStdY
-fBodyAccJerkStdZ
-fBodyAccJerkMeanFreqX
-fBodyAccJerkMeanFreqY
-fBodyAccJerkMeanFreqZ
-fBodyGyroMeanX
-fBodyGyroMeanY
-fBodyGyroMeanZ
-fBodyGyroStdX
-fBodyGyroStdY
-fBodyGyroStdZ
-fBodyGyroMeanFreqX
-fBodyGyroMeanFreqY
-fBodyGyroMeanFreqZ
-fBodyAccMagMean
-fBodyAccMagStd
-fBodyAccMagMeanFreq
-fBodyBodyAccJerkMagMean
-fBodyBodyAccJerkMagStd
-fBodyBodyAccJerkMagMeanFreq
-fBodyBodyGyroMagMean
-fBodyBodyGyroMagStd
-fBodyBodyGyroMagMeanFreq
-fBodyBodyGyroJerkMagMean
-fBodyBodyGyroJerkMagStd
-fBodyBodyGyroJerkMagMeanFreq
-angleOftBodyAccMeanAndgravity
-angleOftBodyAccJerkMeanAndgravityMean
-angleOftBodyGyroMeanAndgravityMean
-angleOftBodyGyroJerkMeanAndgravityMean
-angleOfXAndgravityMean
-angleOfYAndgravityMean
-angleOfZAndgravityMean
+1. tBodyAccMeanX
+1. tBodyAccMeanY
+1. tBodyAccMeanZ
+1. tBodyAccStdX
+1. tBodyAccStdY
+1. tBodyAccStdZ
+1. tGravityAccMeanX
+1. tGravityAccMeanY
+1. tGravityAccMeanZ
+1. tGravityAccStdX
+1. tGravityAccStdY
+1. tGravityAccStdZ
+1. tBodyAccJerkMeanX
+1. tBodyAccJerkMeanY
+1. tBodyAccJerkMeanZ
+1. tBodyAccJerkStdX
+1. tBodyAccJerkStdY
+1. tBodyAccJerkStdZ
+1. tBodyGyroMeanX
+1. tBodyGyroMeanY
+1. tBodyGyroMeanZ
+1. tBodyGyroStdX
+1. tBodyGyroStdY
+1. tBodyGyroStdZ
+1. tBodyGyroJerkMeanX
+1. tBodyGyroJerkMeanY
+1. tBodyGyroJerkMeanZ
+1. tBodyGyroJerkStdX
+1. tBodyGyroJerkStdY
+1. tBodyGyroJerkStdZ
+1. tBodyAccMagMean
+1. tBodyAccMagStd
+1. tGravityAccMagMean
+1. tGravityAccMagStd
+1. tBodyAccJerkMagMean
+1. tBodyAccJerkMagStd
+1. tBodyGyroMagMean
+1. tBodyGyroMagStd
+1. tBodyGyroJerkMagMean
+1. tBodyGyroJerkMagStd
+1. fBodyAccMeanX
+1. fBodyAccMeanY
+1. fBodyAccMeanZ
+1. fBodyAccStdX
+1. fBodyAccStdY
+1. fBodyAccStdZ
+1. fBodyAccMeanFreqX
+1. fBodyAccMeanFreqY
+1. fBodyAccMeanFreqZ
+1. fBodyAccJerkMeanX
+1. fBodyAccJerkMeanY
+1. fBodyAccJerkMeanZ
+1. fBodyAccJerkStdX
+1. fBodyAccJerkStdY
+1. fBodyAccJerkStdZ
+1. fBodyAccJerkMeanFreqX
+1. fBodyAccJerkMeanFreqY
+1. fBodyAccJerkMeanFreqZ
+1. fBodyGyroMeanX
+1. fBodyGyroMeanY
+1. fBodyGyroMeanZ
+1. fBodyGyroStdX
+1. fBodyGyroStdY
+1. fBodyGyroStdZ
+1. fBodyGyroMeanFreqX
+1. fBodyGyroMeanFreqY
+1. fBodyGyroMeanFreqZ
+1. fBodyAccMagMean
+1. fBodyAccMagStd
+1. fBodyAccMagMeanFreq
+1. fBodyBodyAccJerkMagMean
+1. fBodyBodyAccJerkMagStd
+1. fBodyBodyAccJerkMagMeanFreq
+1. fBodyBodyGyroMagMean
+1. fBodyBodyGyroMagStd
+1. fBodyBodyGyroMagMeanFreq
+1. fBodyBodyGyroJerkMagMean
+1. fBodyBodyGyroJerkMagStd
+1. fBodyBodyGyroJerkMagMeanFreq
+1. angleOftBodyAccMeanAndgravity
+1. angleOftBodyAccJerkMeanAndgravityMean
+1. angleOftBodyGyroMeanAndgravityMean
+1. angleOftBodyGyroJerkMeanAndgravityMean
+1. angleOfXAndgravityMean
+1. angleOfYAndgravityMean
+1. angleOfZAndgravityMean
