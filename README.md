@@ -15,8 +15,8 @@
  R script called run_analysis.R that does the following. 
  reads the files in <workdir>\UCI HAR Dataset\
  create two  files in the working dir:
- samsungAvgMeanStdOnSubjectActivity.csv  	
- samsung_activity.csv 					
+1. samsungAvgMeanStdOnSubjectActivity.csv  THIS is the tidy  file  of the assignment 
+1. samsung_activity.csv THIS is full file for reference 
 
 
 --- Workflow: Merges from the UCI HAR Datasets training data  and the  test data :  
