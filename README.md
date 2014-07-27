@@ -1,5 +1,5 @@
  requierd packages
- Packages plyr and rehape2 should beinstalled
+ Packages plyr and reshape2 should beinstalled
  library(plyr)
  library(reshape2)
 
