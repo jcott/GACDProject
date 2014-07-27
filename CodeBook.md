@@ -36,11 +36,12 @@ For each record it is provided:
 ----------------------------------------
 -- 
 
-ObsnrSubjectType		Obsrvation number within the original set ( test or train)	 	(not in samsungAvgMeanStdOnSubjectActivity.csv)							
-SubjectType			     test or  train													(not in samsungAvgMeanStdOnSubjectActivity.csv)
-Subject			         number of the person  (1 to 30)								
-ActivityNumber			1 to 6 is the number to de activity name   						(not in samsungAvgMeanStdOnSubjectActivity.csv)							
-ActivityName			(WALKING,WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING ,STANDING,LAYIN)	
+ObsnrSubjectType...........Obsrvation number within the original set ( test or train)
+...........................(not in samsungAvgMeanStdOnSubjectActivity.csv)							
+SubjectType................test or  train  (not in samsungAvgMeanStdOnSubjectActivity.csv)
+Subject	...................number of the person  (1 to 30)								
+ActivityNumber.............1 to 6 is the number to de activity name (not in samsungAvgMeanStdOnSubjectActivity.csv)							
+ActivityName...............WALKING,WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING ,STANDING,LAYIN)	
 
 -  In Record  measures/features:
 --------------------------------
