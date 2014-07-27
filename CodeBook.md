@@ -36,8 +36,7 @@ For each record it is provided:
 ----------------------------------------
 -- 
 
-ObsnrSubjectType...........Obsrvation number within the original set ( test or train)
-...........................(not in samsungAvgMeanStdOnSubjectActivity.csv)							
+ObsnrSubjectType...........Obsrvation number within the original set ( test or train)...........................(not in samsungAvgMeanStdOnSubjectActivity.csv)							
 SubjectType................test or  train  
 ...........................(not in samsungAvgMeanStdOnSubjectActivity.csv)
 Subject	...................number of the person  (1 to 30)								
