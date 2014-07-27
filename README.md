@@ -6,14 +6,14 @@
  a work directory to write in should be set
 
  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
- must be unzipped in the workindirectory,  so directory UCI HAR Dataset  mut exsist:  <wrkdir>/UCI HAR Dataset/
+ must be unzipped in the workindirectory,  so directory UCI HAR Dataset as subdir from working directory
 
 
 
 # run_analysis.R 
  ----
  R script called run_analysis.R that does the following. 
- reads the files in <workdir>\UCI HAR Dataset\
+ reads the files in \UCI HAR Dataset\
  create two  files in the working dir:
 1. samsungAvgMeanStdOnSubjectActivity.csv  THIS is the tidy  file  of the assignment 
 1. samsung_activity.csv THIS is full file for reference 
@@ -37,7 +37,7 @@
 -  dataframe compileFeature  is made out of al the above. via cbind and a join
 
 - final result of loop through test and train
--  featureRESULT   is  result of the append of the test en train data and witten to <workdr>/samsung_activity.csv 
+-  featureRESULT   is  result of the append of the test en train data and witten to workdir file samsung_activity.csv 
 
 -  second  dataset:
    featureRESULT is grouped on Subject,ActivityName, and a avarage is calculated for the measures  in df meanRESULT
