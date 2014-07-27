@@ -8,8 +8,8 @@ Here are the data for the project:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 files where the fields are available are
- samsungAvgMeanStdOnSubjectActivity.csv  	:   mean on measures on Subject and ActivityName on file samsung_activity.csv
- samsung_activity.csv 						:	
+ samsungAvgMeanStdOnSubjectActivity.csv  :   mean on measures on Subject and ActivityName on file samsung_activity.csv
+ samsung_activity.csv :
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
@@ -37,11 +37,13 @@ For each record it is provided:
 -- 
 
 ObsnrSubjectType...........Obsrvation number within the original set ( test or train)
-...........................(not in samsungAvgMeanStdOnSubjectActivity.csv)							
-SubjectType................test or  train  (not in samsungAvgMeanStdOnSubjectActivity.csv)
-Subject	...................number of the person  (1 to 30)								
-ActivityNumber.............1 to 6 is the number to de activity name (not in samsungAvgMeanStdOnSubjectActivity.csv)							
-ActivityName...............WALKING,WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING ,STANDING,LAYIN)	
+...........................(not in samsungAvgMeanStdOnSubjectActivity.csv)
+SubjectType................test or  train  
+..........................(not in samsungAvgMeanStdOnSubjectActivity.csv)
+Subject....................number of the person  (1 to 30)
+ActivityNumber.............1 to 6 is the number to de activity name 
+...........................(not in samsungAvgMeanStdOnSubjectActivity.csv)
+ActivityName...............WALKING,WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING ,STANDING,LAYIN)
 
 -  In Record  measures/features:
 --------------------------------
@@ -78,90 +80,90 @@ angle(): Angle between to vectors.
 
 -  In Record 86 fields:
 ------------------------
-							
-tBodyAccMeanX											
-tBodyAccMeanY											
-tBodyAccMeanZ											
-tBodyAccStdX											
-tBodyAccStdY											
-tBodyAccStdZ											
-tGravityAccMeanX											
-tGravityAccMeanY											
-tGravityAccMeanZ											
-tGravityAccStdX											
-tGravityAccStdY											
-tGravityAccStdZ											
-tBodyAccJerkMeanX											
-tBodyAccJerkMeanY											
-tBodyAccJerkMeanZ											
-tBodyAccJerkStdX											
-tBodyAccJerkStdY											
-tBodyAccJerkStdZ											
-tBodyGyroMeanX											
-tBodyGyroMeanY											
-tBodyGyroMeanZ											
-tBodyGyroStdX											
-tBodyGyroStdY											
-tBodyGyroStdZ											
-tBodyGyroJerkMeanX											
-tBodyGyroJerkMeanY											
-tBodyGyroJerkMeanZ											
-tBodyGyroJerkStdX											
-tBodyGyroJerkStdY											
-tBodyGyroJerkStdZ											
-tBodyAccMagMean											
-tBodyAccMagStd											
-tGravityAccMagMean											
-tGravityAccMagStd											
-tBodyAccJerkMagMean											
-tBodyAccJerkMagStd											
-tBodyGyroMagMean											
-tBodyGyroMagStd											
-tBodyGyroJerkMagMean											
-tBodyGyroJerkMagStd											
-fBodyAccMeanX											
-fBodyAccMeanY											
-fBodyAccMeanZ											
-fBodyAccStdX											
-fBodyAccStdY											
-fBodyAccStdZ											
-fBodyAccMeanFreqX											
-fBodyAccMeanFreqY											
-fBodyAccMeanFreqZ											
-fBodyAccJerkMeanX											
-fBodyAccJerkMeanY											
-fBodyAccJerkMeanZ											
-fBodyAccJerkStdX											
-fBodyAccJerkStdY											
-fBodyAccJerkStdZ											
-fBodyAccJerkMeanFreqX											
-fBodyAccJerkMeanFreqY											
-fBodyAccJerkMeanFreqZ											
-fBodyGyroMeanX											
-fBodyGyroMeanY											
-fBodyGyroMeanZ											
-fBodyGyroStdX											
-fBodyGyroStdY											
-fBodyGyroStdZ											
-fBodyGyroMeanFreqX											
-fBodyGyroMeanFreqY											
-fBodyGyroMeanFreqZ											
-fBodyAccMagMean											
-fBodyAccMagStd											
-fBodyAccMagMeanFreq											
-fBodyBodyAccJerkMagMean											
-fBodyBodyAccJerkMagStd											
-fBodyBodyAccJerkMagMeanFreq											
-fBodyBodyGyroMagMean											
-fBodyBodyGyroMagStd											
-fBodyBodyGyroMagMeanFreq											
-fBodyBodyGyroJerkMagMean											
-fBodyBodyGyroJerkMagStd											
-fBodyBodyGyroJerkMagMeanFreq											
-angleOftBodyAccMeanAndgravity											
-angleOftBodyAccJerkMeanAndgravityMean											
-angleOftBodyGyroMeanAndgravityMean											
-angleOftBodyGyroJerkMeanAndgravityMean											
-angleOfXAndgravityMean											
-angleOfYAndgravityMean											
-angleOfZAndgravityMean											
+
+tBodyAccMeanX
+tBodyAccMeanY
+tBodyAccMeanZ
+tBodyAccStdX
+tBodyAccStdY
+tBodyAccStdZ
+tGravityAccMeanX
+tGravityAccMeanY
+tGravityAccMeanZ
+tGravityAccStdX
+tGravityAccStdY
+tGravityAccStdZ
+tBodyAccJerkMeanX
+tBodyAccJerkMeanY
+tBodyAccJerkMeanZ
+tBodyAccJerkStdX
+tBodyAccJerkStdY
+tBodyAccJerkStdZ
+tBodyGyroMeanX
+tBodyGyroMeanY
+tBodyGyroMeanZ
+tBodyGyroStdX
+tBodyGyroStdY
+tBodyGyroStdZ
+tBodyGyroJerkMeanX
+tBodyGyroJerkMeanY
+tBodyGyroJerkMeanZ
+tBodyGyroJerkStdX
+tBodyGyroJerkStdY
+tBodyGyroJerkStdZ
+tBodyAccMagMean
+tBodyAccMagStd
+tGravityAccMagMean
+tGravityAccMagStd
+tBodyAccJerkMagMean
+tBodyAccJerkMagStd
+tBodyGyroMagMean
+tBodyGyroMagStd
+tBodyGyroJerkMagMean
+tBodyGyroJerkMagStd
+fBodyAccMeanX
+fBodyAccMeanY
+fBodyAccMeanZ
+fBodyAccStdX
+fBodyAccStdY
+fBodyAccStdZ
+fBodyAccMeanFreqX
+fBodyAccMeanFreqY
+fBodyAccMeanFreqZ
+fBodyAccJerkMeanX
+fBodyAccJerkMeanY
+fBodyAccJerkMeanZ
+fBodyAccJerkStdX
+fBodyAccJerkStdY
+fBodyAccJerkStdZ
+fBodyAccJerkMeanFreqX
+fBodyAccJerkMeanFreqY
+fBodyAccJerkMeanFreqZ
+fBodyGyroMeanX
+fBodyGyroMeanY
+fBodyGyroMeanZ
+fBodyGyroStdX
+fBodyGyroStdY
+fBodyGyroStdZ
+fBodyGyroMeanFreqX
+fBodyGyroMeanFreqY
+fBodyGyroMeanFreqZ
+fBodyAccMagMean
+fBodyAccMagStd
+fBodyAccMagMeanFreq
+fBodyBodyAccJerkMagMean
+fBodyBodyAccJerkMagStd
+fBodyBodyAccJerkMagMeanFreq
+fBodyBodyGyroMagMean
+fBodyBodyGyroMagStd
+fBodyBodyGyroMagMeanFreq
+fBodyBodyGyroJerkMagMean
+fBodyBodyGyroJerkMagStd
+fBodyBodyGyroJerkMagMeanFreq
+angleOftBodyAccMeanAndgravity
+angleOftBodyAccJerkMeanAndgravityMean
+angleOftBodyGyroMeanAndgravityMean
+angleOftBodyGyroJerkMeanAndgravityMean
+angleOfXAndgravityMean
+angleOfYAndgravityMean
+angleOfZAndgravityMean
